@@ -90,7 +90,7 @@
 
 /* APP SIDEBAR */
 
- .app-sidebar, .app-body {
+ .app-side-and-body {
   height: calc(100vh - 70px);
  }
 
@@ -105,10 +105,6 @@
   .app-sidebar {
     width: 150px;
   }
- }
-
- .app-sidebar .sidebar-nav {
-  height: 100%;
  }
 
  .app-sidebar .sidebar-nav li {
@@ -134,9 +130,9 @@
 
  /* APP BODY */
 
- .app-body {
+/*  .app-body {
   max-width: calc(100vw - 68px);
- }
+ } */
 
  @media (min-width: 992px) {
   .app-body {
@@ -215,6 +211,6 @@
       width: auto;
     }
     .body-hero .offcanvas {
-      width: auto;
+      width: 50%;
     }
   }
