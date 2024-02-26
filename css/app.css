@@ -1,3 +1,37 @@
  * {
   font-family: "Roboto", sans-serif;
  }
+
+/* APP */
+
+ #app {
+  width: 100vw;
+  height: 100vh;
+ }
+
+/* APP HEADER */
+
+ .app-header {
+  height: 70px;
+ }
+
+/* APP SIDEBAR */
+
+ .app-sidebar, .app-body {
+  height: calc(100vh - 70px);
+ }
+
+ .app-sidebar {
+  width: 68px;
+  background-image: url(../img/sidebar-bg.png);
+  background-color: #051E34;
+  color: white;
+ }
+
+ @media (min-width: 992px) {
+  .app-sidebar {
+    width: 150px;
+  }
+ }
+
+ /* APP BODY */
