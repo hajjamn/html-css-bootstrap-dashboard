@@ -45,7 +45,7 @@
   color: #5B5858;
 }
 
-.app-header ul li:last-child {
+.app-header ul li .dropdown-toggle {
   color: #FF8F00;
 }
 
@@ -62,6 +62,10 @@
 .app-header ul li a {
   color: currentColor;
   text-decoration: none;
+}
+
+.app-header ul li .dropdown-toggle::after {
+  display: none;
 }
 
 /* APP SIDEBAR */
