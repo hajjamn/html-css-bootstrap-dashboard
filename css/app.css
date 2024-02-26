@@ -31,7 +31,6 @@
    .app-header .mobile-logo {
     display: none;
    }
-
  }
 
 
@@ -79,7 +78,8 @@
   }
 }
 
-.app-header ul li a {
+.app-header ul li a,
+.app-sidebar ul li a {
   color: currentColor;
   text-decoration: none;
 }
@@ -106,5 +106,32 @@
     width: 150px;
   }
  }
+
+ .app-sidebar .sidebar-nav {
+  height: 100%;
+ }
+
+ .app-sidebar .sidebar-nav li {
+  padding: 10px;
+  width: 100%;
+  transition: background-color 0.5s;
+ }
+
+ .app-sidebar .sidebar-nav li:hover {
+  background-color: rgba(250, 250, 250, 0.5);
+ }
+
+ .app-sidebar .sidebar-nav  span {
+  display: none;
+  padding: 0 10px;
+ }
+
+ @media (min-width: 992px) {
+  .app-sidebar .sidebar-nav span {
+    display: inline;
+   }
+ }
+
+
 
  /* APP BODY */

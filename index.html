@@ -14,15 +14,19 @@
   <body>
     <div id="app">
       <div class="app-container d-flex flex-wrap">
+        <!-- APP HEADER -->
         <div class="app-header col-12 d-flex align-items-center">
+          <!-- LOGO -->
           <div class="col flex-grow-0 px-3 logo-container">
             <img src="./img/mobile-logo.png" alt="" class="mobile-logo">
             <img src="./img/logo.svg" alt="" class="desktop-logo">
           </div>
+          <!-- SEARCHBAR -->
           <div class="col flex-grow-1 searchbar position-relative">
             <input type="text" name="searchbar" id="#searchbar" placeholder="Prova a cercare: Lezioni di Laravel" class="rounded">
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
+          <!-- NAV MENU -->
           <ul class="col list-unstyled d-flex flex-grow-0 px-3 m-0">
             <li><a href="#"><i class="fa-solid fa-list-ul px-2"></i></a></li>
             <li><a href="#"><i class="fa-solid fa-circle-question px-2"></i></a></li>
@@ -31,6 +35,7 @@
               <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-bell px-2"></i>
               </a>
+              <!-- DROPDOWN -->
               <ul class="dropdown-menu">
                 <li><a href="#" class="dropdown-item">Profilo</a></li>
                 <li><a href="#" class="dropdown-item">Fatturazione</a></li>
@@ -40,8 +45,14 @@
           </ul>
           <div class="d-none"></div>
         </div>
+        <!-- APP SIDEBAR -->
         <div class="app-sidebar flex-shrink-0">
-          App Sidebar
+          <ul class="list-unstyled sidebar-nav d-flex flex-column p-3 align-items-center">
+            <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+            <li><a href="#"><i class="fa-solid fa-chart-simple"></i><span>Stats</span></a></li>
+            <li><a href="#"><i class="fa-solid fa-signal"></i><span>Signals</span></a></li>
+            <li class="mt-auto"><a href="#"><i class="fa-solid fa-gear"></i><span>Admin</span></a></li>
+          </ul>
         </div>
         <div class="app-body flex-grow-1">
           App Body
