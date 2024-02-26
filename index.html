@@ -14,8 +14,20 @@
   <body>
     <div id="app">
       <div class="app-container d-flex flex-wrap">
-        <div class="app-header col-12">
-          App Header
+        <div class="app-header col-12 d-flex align-items-center">
+          <div class="col flex-grow-0 px-3">
+            <img src="./img/logo.svg" alt="">
+          </div>
+          <div class="col flex-grow-1 searchbar position-relative">
+            <input type="text" name="searchbar" id="#searchbar" placeholder="Prova a cercare: Lezioni di Laravel" class="rounded">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <ul class="col list-unstyled d-flex flex-grow-0 px-3 m-0">
+            <li><a href="#"><i class="fa-solid fa-list-ul px-2"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-circle-question px-2"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-ellipsis-vertical px-2"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-bell px-2"></i></a></li>
+          </ul>
         </div>
         <div class="app-sidebar flex-shrink-0">
           App Sidebar

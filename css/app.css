@@ -15,6 +15,55 @@
   height: 70px;
  }
 
+ .app-header .searchbar {
+  height: 100%;
+  padding: 10px 0;
+ }
+
+ .app-header .searchbar input {
+  width: 100%;
+  padding-left: 32px;
+  background-color: #E5E5E5;
+  outline: 0;
+  border: 0;
+  height: 100%;
+ }
+
+ .searchbar > i {
+  position: absolute;
+  left: 8px;
+  top: 28px;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.searchbar input:focus-visible + i {
+  opacity: 0;
+}
+
+.app-header ul {
+  color: #5B5858;
+}
+
+.app-header ul li:last-child {
+  color: #FF8F00;
+}
+
+.app-header ul > li:not(:last-child) {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .app-header ul > li:not(:last-child) {
+    display: block;
+  }
+}
+
+.app-header ul li a {
+  color: currentColor;
+  text-decoration: none;
+}
+
 /* APP SIDEBAR */
 
  .app-sidebar, .app-body {
