@@ -62,7 +62,7 @@
               <div class="row justify-content-between">
                 <div class="col-auto new-student">
                   <p class="d-inline-block me-2">Nuovo Studente</p>
-                  <button type="button" class="btn border">+</button>
+                  <button type="button" class="btn border" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHero" aria-controls="offcanvasHero">+</button>
                 </div>
                 <div class="col-auto boolean-pills mb-3">
                   <div>
@@ -80,6 +80,15 @@
                   <p>Studenti online negli ultimi 30 minuti</p>
                   <h2>125</h2>
                 </div>
+              </div>
+            </div>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasHero" aria-labelledby="offcanvasHeroLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasHeroLabel">Inserisci un nuovo studente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                Form
               </div>
             </div>
           </section>

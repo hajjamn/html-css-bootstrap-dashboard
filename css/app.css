@@ -162,12 +162,22 @@
     color: white;
   }
 
+  .body-hero .btn:hover {
+    background-color: white;
+    color: black;
+  }
+
   .body-hero .badge {
     background-color: #165BBA;
   }
 
   .body-hero .hero-desktop {
     display: none;
+  }
+
+  .body-hero .offcanvas {
+    width: 100%;
+    color: black;
   }
 
   @media (min-width: 768px) {
@@ -202,6 +212,9 @@
       width: auto;
     }
     .new-student {
+      width: auto;
+    }
+    .body-hero .offcanvas {
       width: auto;
     }
   }
