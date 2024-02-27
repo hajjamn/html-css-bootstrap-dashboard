@@ -130,6 +130,10 @@
 
  /* APP BODY */
 
+ .app-body {
+  overflow-y: scroll;
+ }
+
  @media (min-width: 992px) {
   .app-body {
     max-width: calc(100vw - 150px);
@@ -221,4 +225,20 @@
   .body-content .next-classes .btn {
     color: gray;
     border-color: gray;
+  }
+
+  .body-content .next-classes th:nth-child(2),
+  .body-content .next-classes th:nth-child(3),
+  .body-content .next-classes td:nth-child(2),
+  .body-content .next-classes td:nth-child(3)    {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .body-content .next-classes th:nth-child(2),
+    .body-content .next-classes th:nth-child(3),
+    .body-content .next-classes td:nth-child(2),
+    .body-content .next-classes td:nth-child(3)    {
+      display: table-cell;
+    }
   }
