@@ -130,10 +130,6 @@
 
  /* APP BODY */
 
-/*  .app-body {
-  max-width: calc(100vw - 68px);
- } */
-
  @media (min-width: 992px) {
   .app-body {
     max-width: calc(100vw - 150px);
@@ -213,4 +209,16 @@
     .body-hero .offcanvas {
       width: 50%;
     }
+  }
+
+  /* APP CONTENT */
+
+  .body-content .next-classes table img {
+    width: 30px;
+    border-radius: 50%;
+  }
+
+  .body-content .next-classes .btn {
+    color: gray;
+    border-color: gray;
   }
