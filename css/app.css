@@ -242,3 +242,9 @@
       display: table-cell;
     }
   }
+
+  /* ACTIVE USERS */
+
+  .active-users img {
+    max-width: 100%;
+  }
